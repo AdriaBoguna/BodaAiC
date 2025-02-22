@@ -870,12 +870,13 @@ main {
     position: relative;
     justify-content: center;
     min-height: 100vh;
-    color: var(--text-white);
+    background-color: white;
+    color: #6D3E28;
     padding: 120px 0;
 }
 
 .time-line-section .section-title {
-    color: var(--text-white);
+    color: #6D3E28;
 }
 
 .story_bg {
@@ -891,7 +892,7 @@ main {
 .timeline-title {
     font-family: var(--script-font);
     font-size: var(--fs-2);
-    color: var(--text-white);
+    color: #6D3E28;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -906,7 +907,7 @@ main {
     content: "";
     width: 1px;
     height: 90%;
-    background-color: white;
+    background-color: #6D3E28;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -952,7 +953,7 @@ main {
 .timeline-body .title {
     font-family: var(--title-font);
     font-size: 20px;
-    color: var(--text-white);
+    color: #6D3E28;
 }
 
 /* COUNTDOWN */
