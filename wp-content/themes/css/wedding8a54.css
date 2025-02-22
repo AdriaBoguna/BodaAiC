@@ -508,6 +508,20 @@ select {
   color: #5a4633;
 }
 
+/* ANIMACIÓN EXCLUSIVA PARA "AFTER PARTY" */
+@keyframes ledMarquee {
+  0% { border-color: #c69c6d; box-shadow: 0 0 10px #c69c6d; }
+  25% { border-color: #d4af85; box-shadow: 0 0 15px #d4af85; }
+  50% { border-color: #e6c6a8; box-shadow: 0 0 10px #e6c6a8; }
+  75% { border-color: #d4af85; box-shadow: 0 0 15px #d4af85; }
+  100% { border-color: #c69c6d; box-shadow: 0 0 10px #c69c6d; }
+}
+
+
+.dress-item.after-party {
+  animation: ledMarquee 2s infinite ease-in-out;
+}
+
 /* RESPONSIVE */
 @media (max-width: 168px) {
   .dress-container {
